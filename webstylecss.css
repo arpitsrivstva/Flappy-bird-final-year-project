@@ -1,0 +1,194 @@
+@charset "utf-8"; 
+
+body, html {
+    background-color: #00bb34 !important; /*27b917&#34eb67*/
+    height: 100%;
+
+} 
+
+#heading {
+    
+    font-style: italic;
+    color: #71BC68;
+}
+
+.headings{
+    border-style: solid;   
+    color: #171717;
+    font-variant: small-caps bold;
+    font-style: normal;
+    font-family: advent-pro;
+    font-weight: 1000;
+    font-size: 300%;   
+}
+
+.content {
+    color: #dfdfdf;
+    
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+    font-size: large;
+    text-align: left;
+}
+
+.dlink{
+    border: medium outset #006567;
+    color: rgb(129, 110, 1);
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    text-align: left;
+} 
+
+/* .image-section{
+    background-image: url(sr) ;
+} */
+
+.sample1{
+    background-size: cover;
+    background-image: url('./images/no\ top2.png');
+    background-repeat: no-repeat;
+    background-position:25% 75%;
+    justify-content: left;
+    height: 595px;
+} 
+
+#technical{
+    margin-top: 150px;
+} 
+
+.screenshots{
+    margin: auto;
+    width: 100%;
+}
+
+.sample2{
+    justify-content: right;
+}    
+
+.ss {
+    position: relative;
+        height: 300px; 
+        width: 400px; 
+        padding: 1%;
+    }
+
+.more{
+	flex: 1;
+	text-align: right;	
+}
+.more ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 15px;
+}
+.more ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#likey{
+    
+    opacity: 0.7;
+    color: #551A8B;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: oblique;
+    text-align: left;
+    text-shadow: 0.5px 0px;
+}
+#heart{
+    cursor: grabbing;
+    font-size: 20px;
+}
+#smol{
+    opacity: 0.5;
+	
+}
+.content1 {
+    font-family: actor;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    text-align: center;
+    font-family: annie-use-your-telescope;
+    color: floralwhite;
+    
+    
+} 
+
+.placeup2{
+    font-family: averia-sans-libre;
+    font-size: 5%;
+    font-style: italic;
+    font-weight: 300;
+    font-size: x-large;
+    text-align: center;
+    color: #551A8B;
+}
+.aisehi{
+    border: medium groove #246724;
+}
+
+#b{
+  color: blue;
+  background-color: #F9C802;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 10%
+  z-index = 5;  
+  left: "5%";
+}
+
+.black{
+	background-color: black;
+	bottom: 0%;
+	position: relative;
+	width: 100%;
+	height: 150px;
+	z-index: 4;
+}
+
+.form {
+  position: absolute;
+  z-index: 5;  
+  right: 10%;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.input {
+	font-family: comic sans MT;
+    color: grey;
+	background-color: #dfc07e;
+	height: 30px;
+	width: 250px;
+	font-size: 15px;
+}
+
+.sbutton{
+	font-family: comic sans;
+    color: silver;
+	background-color: purple;
+    
+}
+
+.bg{
+    background-image: url('./images/peakpx.jpg');
+  /* Full height */
+  height: 150%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2
+{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
